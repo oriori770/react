@@ -1,0 +1,20 @@
+.but {
+
+    text-align: center; 
+    background-color: rgb(242, 255, 0);
+
+    
+
+};
+
+.one_button{
+    border-radius: 30%;
+    height: 30%;
+    width: 30%;
+    /* font-size: medium; */
+    color: white;
+    background-color: rgb(238, 0, 255);
+
+};
+
+

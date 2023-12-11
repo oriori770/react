@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* Eliminates the possibility of copying from the screen and marking text */
+  -webkit-user-select: none;
+ 
+
+}
+
+/* Designs the web page */
+body {
+  background-color: rgb(255, 255, 255);
+  /* Place the calculator in the middle */
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  /* The size of the text on the page */
+  font-size: 1rem;
+
+}
+
+/* Creates the body of the calculator */
+.App {
+  /* Sets calculator size */
+  height: 80vh;
+  width:  50vh;
+  background-color:#28303a;
+  /* Designing the edges of the calculator */
+  border-radius: 1rem;
+  /* Changes the size of the calculator */
+  padding: 1rem;
+  
+}
+
+
+.wrapper {
+  display: grid;
+  /* Defines the grid spacing */
+  height: 100%;
+  width: 100%;
+  /* Defines the number of columns in the grid */
+  grid-template-columns: repeat(4,1fr);
+  /* Defines the number of rows in the grid */
+  grid-template-rows: repeat(6,1fr);
+  /* Reducing the size of the buttons */
+  gap: 10px;
+}
+
+.button {
+  display: grid;
+  /* Place the object in the center of the grid */
+  place-content: center;
+  /* The color of the button */
+  background-color:#d03ece;
+  /* Designs the shape of the button */
+  border-radius: 50%;
+    /* The color of the text button */
+  color: white;
+  cursor: pointer;
+  /* font-weight: bold; */
+}
+
+.screen {
+  /* Defines the screen size by position in the grid */
+  grid-column: 1 / 5;
+  color: white;
+  background-color: #268a55;
+  text-align: right;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  font-size: 3rem;
+  /* overflow: hidden; */
+}
+
+/* Button background that you move over with the mouse */
+.button:hover {
+  background-color:(37,136,84);
+}
+
+/*Gray button background */
+/* .light-gray {
+  background-color: gray;
+  color: black;
+} */
+
+/* Gray button background that you move over with the mouse */
+/* .light-gray:hover {
+  background-color: white
+} */
+ 
+/* Orange button background */
+/* .orange {
+  background-color: orange;
+} */
+
+
+/* Orange button background that you move over with the mouse */
+/* .orange:hover {
+  background-color: white;
+  color: orange;
+} */
+
+
+.equals {
+  /* Increases the size of the button */
+  grid-column: 3 / span 2;
+  /* The button domes */
+  border-radius: 50px;
+  background-color:#f2492c;
+}
+.head_app{
+  background-color:#2f2bf1;
+  height: 93vh;
+  width:  67vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

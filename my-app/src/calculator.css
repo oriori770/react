@@ -1,0 +1,35 @@
+.calculator {
+    background-color: rgb(255, 0, 0);
+    width: 70%;
+    height: 70%;
+    padding: 15%;
+    /* margin-left: 30%; */
+    /* margin-right: auto; */
+
+};
+
+.screen_button {
+  text-align: center;
+  /* display: grid; 
+  grid-template-columns: auto auto auto;  */ 
+};
+
+.buttons {
+  width: 69%;
+  height: 69%;
+  display: grid; 
+  background-color: antiquewhite;
+  grid-template-columns: repeat(4, 1fr); 
+  grid-template-rows: repeat(5, 1fr) ;
+};
+  
+
+._input{
+  background-color: rgb(71, 206, 161);
+  color: #1a1313;
+  height: 30%;
+  width: 30%;
+  font-size: 5%;
+  padding: 15%;
+  margin-top: 0%;
+}
