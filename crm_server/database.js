@@ -7,7 +7,7 @@
 //     },
 
     // {firstName:"moshenko",
-    // lastName:"rainitz",
+    // lastName:"rainkkkitz",
     // phoneNumber:"058798258",
     // email:"oriori770@gmail.com",
     // class_student:"6"
